@@ -7,5 +7,7 @@ if month == 12 or month == 1 or month == 2:
             season = "Лето"
             if month == 9 or month == 10:
                 season = "Осень"
+else:
+    season = "Такого времени нет"
 print(season)
 
