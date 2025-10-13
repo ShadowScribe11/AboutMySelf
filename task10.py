@@ -1,5 +1,8 @@
-temperature = 30
+age = int(input("Введите возраст: "))
 
-if temperature > 25:
-    print("Жарко! Включите кондиционер")
-    print("Пейте больше воды")
+if age < 18:
+    print("Ребенок")
+elif age <= 65:
+    print("Взрослый")
+else:
+    print("Пенсионер")
